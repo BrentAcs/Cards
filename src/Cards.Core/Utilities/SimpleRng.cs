@@ -1,10 +1,10 @@
-namespace BlueHarvest.Core.Utilities;
+namespace Cards.Core.Utilities;
 
 public sealed class SimpleRng : IRng
 {
-   public static readonly IRng Instance = new SimpleRng();
-
    private readonly Random _random = new();
+
+   public static IRng Instance { get; } = new SimpleRng();
 
    public int Next() => _random.Next();
    public int Next(int maxValue) => _random.Next(maxValue);

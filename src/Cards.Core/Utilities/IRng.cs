@@ -1,4 +1,4 @@
-namespace BlueHarvest.Core.Utilities;
+namespace Cards.Core.Utilities;
 
 public interface IRng
 {
