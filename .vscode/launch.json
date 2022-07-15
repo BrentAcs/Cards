@@ -10,11 +10,11 @@
       "request": "launch",
       "preLaunchTask": "build",
       // If you have changed target frameworks, make sure to update the program path.
-      "program": "${workspaceFolder}/tests/Cards.Core.Tests/bin/Debug/net6.0/Cards.Core.Tests.dll",
+      "program": "${workspaceFolder}/src/Cards.CLI/bin/Debug/net6.0/Cards.CLI.dll",
       "args": [],
-      "cwd": "${workspaceFolder}/tests/Cards.Core.Tests",
+      "cwd": "${workspaceFolder}/src/Cards.CLI",
       // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
-      "console": "internalConsole",
+      "console": "externalTerminal",
       "stopAtEntry": false
     },
     {

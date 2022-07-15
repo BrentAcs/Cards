@@ -1,4 +1,4 @@
-using FluentAssertions;
+﻿using FluentAssertions;
 
 namespace Cards.Core.Tests;
 
@@ -11,6 +11,6 @@ public class StandardCardDeckFactoryTests
    {
       var deck = _factory.Create();
 
-      deck.Cards.Should().HaveCount(52);
+      deck.Should().HaveCount(52);
    }
 }
