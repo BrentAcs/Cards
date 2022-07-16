@@ -1,6 +1,6 @@
-﻿using FluentAssertions;
+﻿using Cards.Core.Cards;
 
-namespace Cards.Core.Tests;
+namespace Cards.Core.Tests.Cards;
 
 public class StandardCardDeckFactoryTests
 {

@@ -1,4 +1,5 @@
-﻿using Cards.Core.Extensions;
+﻿using Cards.Core.Cards;
+using Cards.Core.Extensions;
 
 namespace Cards.Core.Tests.Extensions;
 

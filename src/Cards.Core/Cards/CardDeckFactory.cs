@@ -1,4 +1,4 @@
-namespace Cards.Core;
+namespace Cards.Core.Cards;
 
 public interface ICardDeckFactory
 {

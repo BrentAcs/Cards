@@ -1,4 +1,6 @@
-﻿namespace Cards.Core.Extensions;
+﻿using Cards.Core.Cards;
+
+namespace Cards.Core.Extensions;
 
 public static class CardExtensions
 {

@@ -1,4 +1,4 @@
-namespace Cards.Core;
+namespace Cards.Core.Cards;
 
 public enum CardSuit
 {
@@ -23,4 +23,18 @@ public enum CardRank
    _4,
    _3,
    _2,
+}
+
+public enum PokerHands
+{
+   RoyalFlush = 1,
+   StraightFlush,
+   FourOfAKind,
+   FullHouse,
+   Flush,
+   Straight,
+   ThreeOfAKind,
+   TwoPair,
+   OnePair,
+   HighCard,
 }
